@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.javon.packetrecyclerview.demo.MainActivity">
+
+    <com.javon.packetrecyclerview.PacketRecyclerView
+        android:id="@+id/prv_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_empty="@layout/view_empty"
+        app:layout_error="@layout/view_error"
+        app:layout_progress="@layout/view_progress"/>
+
+</RelativeLayout>
